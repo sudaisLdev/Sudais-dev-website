@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Killer Website</title>
+    <link rel="stylesheet" href="Styles1.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Page -->
+    <section id="home">
+        <h1>Welcome to our website!</h1>
+        <p>We're excited to share our story with you. Our mission is to provide the best products and services to our customers.</p>
+        <button onclick="showProducts()">Learn More</button>
+    </section>
+
+    <!-- About Page -->
+    <section id="about">
+        <h1>About Us</h1>
+        <p>We're a team of passionate individuals dedicated to making a difference.</p>
+        <img src="team.jpg" alt="Our Team">
+    </section>
+
+    <!-- Contact Page -->
+    <section id="contact">
+        <h1>Get in Touch</h1>
+        <p>Have a question or want to learn more? Contact us today!</p>
+        <form>
+            <input type="text" id="name" placeholder="Name">
+            <input type="email" id="email" placeholder="Email">
+            <textarea id="message" placeholder="Message"></textarea>
+            <button onclick="sendEmail()">Send</button>
+        </form>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+        <h1>Our Products</h1>
+        <ul id="product-list">
+            <li>Product 1</li>
+            <li>Product 2</li>
+            <li>Product 3</li>
+        </ul>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
